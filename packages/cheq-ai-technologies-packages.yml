@@ -1,0 +1,88 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/org/cheq.ai
+notes: >-
+  First-party client libraries published under the npm @cheq.ai scope and the
+  cheq-ai GitHub organization (https://github.com/cheq-ai). CHEQ's SDK surface
+  centers on Server-Side Tagging (SST), Real-Time Interception (RTI) middlewares,
+  and the CHEQ Enforce consent-management SDKs. Several SDKs (Kotlin, Swift, the
+  RTI client packages, and the Python middlewares) are distributed as source via
+  the GitHub org rather than a package registry; those are recorded under
+  source_repos. No PyPI, Maven Central, NuGet, or crates.io packages were found.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@cheq.ai/cheq-middlewares"
+    version: 1.4.6
+    url: https://www.npmjs.com/package/@cheq.ai/cheq-middlewares
+    install: npm install @cheq.ai/cheq-middlewares
+    description: CHEQ middleware for Express.js (Real-Time Interception).
+    repo: https://github.com/cheq-ai/cheq-middlewares
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@cheq.ai/cheq-middlewares-sales"
+    version: 1.0.39
+    url: https://www.npmjs.com/package/@cheq.ai/cheq-middlewares-sales
+    install: npm install @cheq.ai/cheq-middlewares-sales
+    description: CHEQ middlewares (sales variant).
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@cheq.ai/cheq-enforce-react"
+    version: 0.1.0
+    url: https://www.npmjs.com/package/@cheq.ai/cheq-enforce-react
+    install: npm install @cheq.ai/cheq-enforce-react
+    description: CHEQ Enforce consent-management SDK for React and React Native.
+    repo: https://github.com/cheq-ai/cheq-enforce-react
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@cheq.ai/cheq-sst-react"
+    version: 0.1.1
+    url: https://www.npmjs.com/package/@cheq.ai/cheq-sst-react
+    install: npm install @cheq.ai/cheq-sst-react
+    description: CHEQ Server-Side Tagging SDK for React and React Native.
+    repo: https://github.com/cheq-ai/cheq-sst-react
+    official: true
+source_repos:
+  - name: cheq-enforce-kotlin
+    language: kotlin
+    url: https://github.com/cheq-ai/cheq-enforce-kotlin
+    description: CHEQ Enforce consent-management SDK for Kotlin/Android.
+    official: true
+  - name: cheq-enforce-swift
+    language: swift
+    url: https://github.com/cheq-ai/cheq-enforce-swift
+    description: CHEQ Enforce consent-management SDK for Swift/iOS.
+    official: true
+  - name: cheq-sst-kotlin
+    language: kotlin
+    url: https://github.com/cheq-ai/cheq-sst-kotlin
+    description: CHEQ Server-Side Tagging SDK for Kotlin/Android.
+    official: true
+  - name: cheq-sst-swift
+    language: swift
+    url: https://github.com/cheq-ai/cheq-sst-swift
+    description: CHEQ Server-Side Tagging SDK for Swift/iOS.
+    official: true
+  - name: cheq-rti-client-node
+    language: typescript
+    url: https://github.com/cheq-ai/cheq-rti-client-node
+    description: CHEQ Real-Time Interception client for Node.js.
+    official: true
+  - name: cheq-rti-client-fetch
+    language: typescript
+    url: https://github.com/cheq-ai/cheq-rti-client-fetch
+    description: CHEQ Real-Time Interception client using the Fetch API.
+    official: true
+  - name: cheq-rti-client-core-js
+    language: typescript
+    url: https://github.com/cheq-ai/cheq-rti-client-core-js
+    description: CHEQ Real-Time Interception core JS client.
+    official: true
+  - name: Cheq-Python-Middlewares
+    language: python
+    url: https://github.com/cheq-ai/Cheq-Python-Middlewares
+    description: CHEQ RTI middlewares for Python.
+    official: true

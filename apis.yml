@@ -1,8 +1,35 @@
 aid: cheq-ai-technologies
 name: CHEQ AI Technologies
-description: CHEQ AI Technologies is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  CHEQ AI Technologies (CHEQ) is a go-to-market (GTM) security and digital
+  intelligence company headquartered in Tel Aviv, Israel, with offices in New
+  York, London, and Tokyo. CHEQ protects the customer journey by distinguishing
+  legitimate humans from bots, fake users, and malicious AI agents across paid
+  marketing, web forms, analytics, tag management, and consent. Its product
+  suite includes CHEQ Acquisition (paid-media click-fraud and invalid-traffic
+  protection), CHEQ Form Guard (bot form-submission blocking), CHEQ Analytics
+  (human vs. non-human traffic analysis), CHEQ Manage (tag and third-party data
+  governance), CHEQ Enforce (privacy/consent compliance), and CHEQ Agent Intent
+  (real-time visitor intent and identity). CHEQ says it serves 15,000+ brands,
+  processes 6 trillion signals daily across 1 million domains, and runs 2,000+
+  real-time security tests per visitor. Its developer surface is delivered as
+  server-side and client-side SDKs (Server-Side Tagging, Real-Time Interception
+  middlewares, and Enforce consent SDKs across JavaScript/TypeScript, Kotlin,
+  Swift, and Python) published under the npm @cheq.ai scope and the cheq-ai
+  GitHub organization. CHEQ has acquired Deduce (identity intelligence) and
+  ClickCease (click-fraud protection).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cheq.ai/wp-content/uploads/2023/10/cropped-Favicon-CHEQ-192x192.png
 url: https://raw.githubusercontent.com/api-evangelist/cheq-ai-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +39,61 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Go-To-Market Security
+- Bot Mitigation
+- Click Fraud Prevention
+- Invalid Traffic
+- Marketing Security
+- Ad Verification
+- Consent Management
+- Identity Intelligence
+- Cybersecurity
+- Privacy Compliance
+- Server-Side Tagging
 apis: []
+common:
+- type: TrustCenter
+  url: security/cheq-ai-technologies-trust-center.yml
+- type: Compliance
+  url: https://cheq.ai/trust/
+- type: DomainSecurity
+  url: security/cheq-ai-technologies-domain-security.yml
+- type: Website
+  url: https://cheq.ai
+- type: DeveloperPortal
+  url: https://developer.cheq.ai/
+- type: Documentation
+  url: https://docs.cheq.ai/
+- type: Support
+  url: https://support.cheq.ai/
+- type: Blog
+  url: https://cheq.ai/blog/
+- type: Integrations
+  url: https://cheq.ai/integrations-page/
+- type: GitHubOrganization
+  url: https://github.com/cheq-ai
+- type: TermsOfService
+  url: https://cheq.ai/cheq-terms-of-service/
+- type: PrivacyPolicy
+  url: https://cheq.ai/website-privacy-policy/
+- type: Packages
+  url: packages/cheq-ai-technologies-packages.yml
+- type: SDKs
+  url: packages/cheq-ai-technologies-packages.yml
+- type: LLMsTxt
+  url: llms/cheq-ai-technologies-llms.txt
+- type: WellKnown
+  url: well-known/cheq-ai-technologies-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

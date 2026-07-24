@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+host: https://cheq.ai
+notes: >-
+  Probed the standard /.well-known/ discovery surface on the primary marketing
+  host cheq.ai. No documents were served (all 404). The /llms.txt file IS
+  published (200, saved separately under llms/). The CHEQ developer/docs hosts
+  (developer.cheq.ai, docs.cheq.ai) are authentication-walled (302 to
+  Auth0/wp-login and cheqhub.ai/docslogin.html), so their well-known surface
+  could not be probed unauthenticated.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 200
+    file: ../llms/cheq-ai-technologies-llms.txt
