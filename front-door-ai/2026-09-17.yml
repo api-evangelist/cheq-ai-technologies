@@ -1,0 +1,31 @@
+# Front Door AI Index — cheq-ai-technologies — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: cheq-ai-technologies
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: cheq.ai
+  final_host: cheq.ai
+  ownership: unresolved
+  owner: null
+  shares_host_with:
+  - ensighten
+  inherited_from: null
+  verdict: scored
+  score: null
+  host_score: 21
+  density: null
+  words: 994
+  tiers:
+    agentic: 7
+    core: 14
+    model: 0
+  ambiguous: 21
+  top_terms:
+    agent: 15
+    AI: 12
+    intelligence: 6
+    AI agent: 5
+    LLMs: 2
+    agentic: 2
