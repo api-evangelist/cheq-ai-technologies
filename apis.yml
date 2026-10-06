@@ -50,7 +50,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Go-To-Market Security
@@ -66,6 +66,8 @@ tags:
 - Server-Side Tagging
 apis: []
 common:
+- url: https://cheq.ai/blog/feed/
+  type: BlogRSS
 - type: TrustCenter
   url: security/cheq-ai-technologies-trust-center.yml
 - type: Compliance
