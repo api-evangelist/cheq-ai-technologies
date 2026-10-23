@@ -119,3 +119,16 @@
     status: Active
   status: not-a-workflow
   arazzo: null
+- slug: cheq-ai-technologies-adobe-experience-cloud-own
+  label: Adobe Experience Cloud (own)
+  partner: adobe-experience-cloud
+  partner_name: Adobe Experience Cloud (own)
+  category: Adobe Exchange Experience Cloud listing (Experience Platform)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/ec/600234
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null

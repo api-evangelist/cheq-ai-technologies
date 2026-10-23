@@ -113,6 +113,23 @@ edges:
     status: Active
   detected_by: sweep-vc-portfolios.py
   first_seen: '2026-10-21'
+- partner_name: Adobe Experience Cloud (own)
+  partner: adobe-experience-cloud
+  partner_match: mirror
+  mirror_match: domain+name-among-holders
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://exchange.adobe.com/apps/ec/600234
+  mirror_of: adobe-experience-cloud/integrations/adobe-experience-cloud-integration-edges.yml
+  apps:
+  - CHEQ
+  listing_count: 1
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Adobe Exchange Experience Cloud listing (Experience Platform)
 generated: '2026-10-18'
 method: searched
 source:
@@ -139,3 +156,4 @@ checked:
 - https://www.indexventures.com/companies/
 - https://www.sequoiacap.com/our-companies/
 - https://www.sequoiacap.com/sitemap.xml
+- adobe-experience-cloud/integrations/adobe-experience-cloud-integration-edges.yml
