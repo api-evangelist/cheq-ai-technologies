@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-CHEQ AI Technologies is a company surfaced as a portfolio company of battery-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+CHEQ AI Technologies (CHEQ) is a go-to-market (GTM) security and digital intelligence company headquartered in Tel Aviv, Israel, with offices in New York, London, and Tokyo. CHEQ protects the customer journey by distinguishing legitimate humans from bots, fake users, and malicious AI agents across paid marketing, web forms, analytics, tag management, and consent. Its product suite includes CHEQ Acquisition (paid-media click-fraud and invalid-traffic protection), CHEQ Form Guard (bot form-submission blocking), CHEQ Analytics (human vs. non-human traffic analysis), CHEQ Manage (tag and third-party data governance), CHEQ Enforce (privacy/consent compliance), and CHEQ Agent Intent (real-time visitor intent and identity). CHEQ says it serves 15,000+ brands, processes 6 trillion signals daily across 1 million domains, and runs 2,000+ real-time security tests per visitor. Its developer surface is delivered as server-side and client-side SDKs (Server-Side Tagging, Real-Time Interception middlewares, and Enforce consent SDKs across JavaScript/TypeScript, Kotlin, Swift, and Python) published under the npm @cheq.ai scope and the cheq-ai GitHub organization. CHEQ has acquired Deduce (identity intelligence) and ClickCease (click-fraud protection).
 
-Backed by: battery-ventures
+**Areas:** Company · Go-To-Market Security · Bot Mitigation · Click Fraud Prevention · Invalid Traffic · Marketing Security · Ad Verification · Consent Management · Identity Intelligence · Cybersecurity · Privacy Compliance · Server-Side Tagging
+
+## CHEQ AI Technologies on APIs.io
+
+Everything profiled for CHEQ AI Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cheq-ai-technologies/](https://apis.io/providers/cheq-ai-technologies/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cheq Ai Technologies Domain Security](https://apis.io/security/cheq-ai-technologies/cheq-ai-technologies-domain-security/)
+- [Cheq Ai Technologies Trust Center](https://apis.io/security/cheq-ai-technologies/cheq-ai-technologies-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://cheq.ai)
+- [Documentation](https://docs.cheq.ai/)
+- [Support](https://support.cheq.ai/)
+- [Blog](https://cheq.ai/blog/)
+- [Compliance](https://cheq.ai/trust/)
+- [Terms of service](https://cheq.ai/cheq-terms-of-service/)
+- [Privacy policy](https://cheq.ai/website-privacy-policy/)
+- [GitHub](https://github.com/cheq-ai)
+
+## API Evangelist rating
+
+**Kin Score 18.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 36.8 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cheq-ai-technologies/](https://apis.io/providers/cheq-ai-technologies/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CHEQ AI Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cheq-ai-technologies/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
